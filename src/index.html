@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+</head>
+<body class="m-0 p-0 box-border overflow-x-hidden">
+    <div class="w-[100%] h-[250px] bg-[url(./img/dark.jpg)] bg-center bg-cover flex justify-around items-center flex-col">
+        <marquee behavior="" direction="" class="text-[30px] text-slate-900 font-[600] tracking-[2px] w-[60%] m-auto">Muhammadkarimov Hasanboy</marquee>
+        <div class="w-[40%] h-[180px] mt-10 p-1 flex items-center justify-between flex-col">
+            <div class="flex items-center justify-between w-[100%]">
+                <h1 class="text-white text-[40px] uppercase tracking-[10px]">Todo</h1>
+                <img src="../img/moon.png" alt="">
+            </div>
+            <div class="w-[100%]">
+                <input type="text" class="w-[100%] p-3 border-none outline-none text-[20px] rounded-md text-blue-700 font-[100] tracking-[2px] " placeholder="Create a new todo">
+            </div>
+        </div>
+    </div>
+    <div class="w-[40%] min-h-[100px] m-auto todo pb-3 overflow-x-hidden">
+    </div>
+    <section class="w-[100%] h-[100%] bg-black opacity-94 absolute top-0 left-0 hidden items-center justify-center modal">
+        <!-- <div class="w-[50%] bg-blue-700 h-[50%] rounded shadow-slate-500 shadow-xl flex items-center justify-center flex-col">
+            <h1 class="text-center text-[50px] mt-[-20px] uppercase font-mono tracking-[10px] text-lime-50">Taxrirlash</h1>
+            <div class="w-[100%] flex items-center justify-center flex-col mt-4" >
+                <input type="text" class="w-[90%] h-[25%] text-[25px] border border-1 border-black p-4 mt-4"  disabled>
+                <input type="text" class="w-[90%] h-[25%] text-[25px] border border-1 border-black p-4 mt-5" >
+                <button type="button" class="w-[90%] h-[25%] bg-blue-950 mt-5 text-[30px] text-lime-50">Submit</button>
+            </div>
+        </div> -->
+        <img src="./img/delete-back-2-fill (2).png" alt="" class="absolute top-3 right-3 w-10 cursor-pointer hover:bg-red-700 hover:w-11 model_delet">
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
